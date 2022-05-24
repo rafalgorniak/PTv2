@@ -1,10 +1,10 @@
-﻿namespace Data
+﻿namespace DataLayer
 {
 	using System.Data.Linq;
 	using System.Data.Linq.Mapping;
 	using System.ComponentModel;
 	using System;
-    using Data.API;
+    using DataLayer.API;
 
     [global::System.Data.Linq.Mapping.DatabaseAttribute(Name="Library")]
 	internal partial class CatalogDataContext : System.Data.Linq.DataContext
@@ -12,7 +12,7 @@
 		
 		private static System.Data.Linq.Mapping.MappingSource mappingSource = new AttributeMappingSource();
 		
-    #region Extensibility Method Definitions
+    #region Methods
     partial void OnCreated();
     partial void Insertuser(user instance);
     partial void Updateuser(user instance);
@@ -86,7 +86,7 @@
 	}
 	
 	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.users")]
-	internal partial class user : INotifyPropertyChanging, INotifyPropertyChanged, IUser
+	internal partial class user : INotifyPropertyChanging, INotifyPropertyChanged, UserInterface
 	{
 		
 		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
@@ -224,7 +224,7 @@
 	}
 	
 	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.states")]
-	internal partial class state : INotifyPropertyChanging, INotifyPropertyChanged, IState
+	internal partial class state : INotifyPropertyChanging, INotifyPropertyChanged, StateInteface
 	{
 		
 		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
@@ -403,7 +403,7 @@
 	}
 	
 	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.events")]
-	internal partial class @event : INotifyPropertyChanging, INotifyPropertyChanged, IEvent
+	internal partial class @event : INotifyPropertyChanging, INotifyPropertyChanged, EventInterface
 	{
 		
 		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
@@ -619,7 +619,7 @@
 	}
 	
 	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.books")]
-	internal partial class book : INotifyPropertyChanging, INotifyPropertyChanged, IBook
+	internal partial class book : INotifyPropertyChanging, INotifyPropertyChanged, BookInterface
 	{
 		
 		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);

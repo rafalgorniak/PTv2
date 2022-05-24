@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data", "Data\Data.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestViewModel", "TestViewModel\TestViewModel.csproj", "{BA2287DD-3286-4933-92BC-3BCC56995EF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestModel", "TestModel\TestModel.csproj", "{5917E088-0AE1-4EA9-90DF-A3B79C4F5908}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestModel", "TestModel\TestModel.csproj", "{5917E088-0AE1-4EA9-90DF-A3B79C4F5908}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
