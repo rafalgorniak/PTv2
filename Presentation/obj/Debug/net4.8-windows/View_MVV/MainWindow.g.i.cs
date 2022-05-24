@@ -53,7 +53,7 @@ namespace PresentationLayer {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Presentation;V1.0.0.0;component/view_mvv/mainwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Presentation;component/view_mvv/mainwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\View_MVV\MainWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

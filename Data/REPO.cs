@@ -8,7 +8,7 @@ namespace DataLayer
     internal class REPO : RepoInterface
     {
 
-        private string pathtoconnect = "DataLayer Source=LAPTOP-7KS0JQL5;Initial Catalog = Library; Integrated Security = True";
+        private string pathtoconnect = "Data Source=LAPTOP-7KS0JQL5;Initial Catalog=Library;Integrated Security=True";
         private CatalogDataContext catalogdatacontext;
         
         internal REPO()
@@ -20,7 +20,7 @@ namespace DataLayer
             }
             catch(System.Data.SqlClient.SqlException)
             {
-                throw new System.ArgumentException("Cannot establish connection with path "+pathtoconnect);
+                throw ;
             }
         }
 
