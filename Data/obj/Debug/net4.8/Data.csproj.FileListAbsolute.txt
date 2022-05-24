@@ -1,0 +1,9 @@
+C:\Users\rafal\uczelnia\4semestr\Programming Technologies\REPOO\Programming-Technology\Data\bin\Debug\net4.8\Data.dll
+C:\Users\rafal\uczelnia\4semestr\Programming Technologies\REPOO\Programming-Technology\Data\bin\Debug\net4.8\Data.pdb
+C:\Users\rafal\uczelnia\4semestr\Programming Technologies\REPOO\Programming-Technology\Data\obj\Debug\net4.8\Data.csproj.AssemblyReference.cache
+C:\Users\rafal\uczelnia\4semestr\Programming Technologies\REPOO\Programming-Technology\Data\obj\Debug\net4.8\Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rafal\uczelnia\4semestr\Programming Technologies\REPOO\Programming-Technology\Data\obj\Debug\net4.8\Data.AssemblyInfoInputs.cache
+C:\Users\rafal\uczelnia\4semestr\Programming Technologies\REPOO\Programming-Technology\Data\obj\Debug\net4.8\Data.AssemblyInfo.cs
+C:\Users\rafal\uczelnia\4semestr\Programming Technologies\REPOO\Programming-Technology\Data\obj\Debug\net4.8\Data.csproj.CoreCompileInputs.cache
+C:\Users\rafal\uczelnia\4semestr\Programming Technologies\REPOO\Programming-Technology\Data\obj\Debug\net4.8\Data.dll
+C:\Users\rafal\uczelnia\4semestr\Programming Technologies\REPOO\Programming-Technology\Data\obj\Debug\net4.8\Data.pdb
