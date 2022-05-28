@@ -1,4 +1,5 @@
-﻿using DataLayer.API;
+﻿using Data.API;
+using DataLayer.API;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,7 +17,7 @@ namespace DataLayer
             try
             {
                 catalogdatacontext = new CatalogDataContext(pathtoconnect);
-                catalogdatacontext.books.Count();
+                catalogdatacontext.events.Count();
             }
             catch(System.Data.SqlClient.SqlException)
             {

@@ -8,7 +8,7 @@ namespace PresentationLayer
         public PresenationModel(ServiceInterface srv = default(ServiceInterface))
         {   
 
-            this.ModelService = srv == null ? ServiceFactory.CreateService() : srv;
+            this.ModelService = srv == null ? Service_maker.CreateService() : srv;
         }
         public ServiceInterface M_Service { get { return this.ModelService; } }
     }

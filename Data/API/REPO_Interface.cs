@@ -1,44 +1,17 @@
-﻿using System.Collections.Generic;
+﻿using DataLayer;
+using DataLayer.API;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace DataLayer.API
+namespace Data.API
 {
-    public abstract class DataRepoFactory
+    public abstract class REPO_maker
     {
         public static RepoInterface CreateRepo()
         {
             return new REPO();
         }
     }
-    public interface BookInterface
-    {
-        int id { get; set; }
-        string title { get; set; }
-        string author { get; set; }
-    }
-
-    public interface StateInteface
-    {
-        int id { get; set; }
-        int book_id { get; set; }
-        string available { get; set; }
-    }
-
-    public interface UserInterface
-    {
-        int id { get; set; }
-        string name { get; set; }
-        string surname { get; set; }
-    }
-
-    public interface EventInterface
-    {
-        int id { get; set; }
-        int state_id { get; set; }
-        int user_id { get; set; }
-        string type { get; set; }
-    }
-    
 
     public interface RepoInterface
     {
@@ -71,7 +44,7 @@ namespace DataLayer.API
         Task<IEnumerable<EventInterface>> gAllEV();
         Task adEv(int id, int state_id, int user_id, string type);
         Task UpEv(int id, int state_id, int user_id, string type);
-        Task delEv(int id); 
+        Task delEv(int id);
     }
 
 }

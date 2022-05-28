@@ -1,6 +1,7 @@
-﻿using DataLayer.API;
+﻿using Data.API;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using NSubstitute;
+using Service.API;
 using ServiceLayer.API;
 
 namespace ModelTesting
@@ -13,7 +14,7 @@ namespace ModelTesting
         [TestMethod]
         public void BooksTesting()
         {
-            ServiceInterface ser = ServiceFactory.CreateService(repo);
+            ServiceInterface ser = Service_maker.CreateService(repo);
             repo.gAllBooks().Returns(new List<BookTesting>());
             IEnumerable<BookModelInterface> books = ser.getAllBooks().Result;
             Assert.IsNotNull(books);
@@ -29,7 +30,7 @@ namespace ModelTesting
         [TestMethod]
         public void StatesTesting()
         {
-            ServiceInterface ser = ServiceFactory.CreateService(repo);
+            ServiceInterface ser = Service_maker.CreateService(repo);
             repo.gAllStates().Returns(new List<StateTesting>());
             IEnumerable<StateModelInterface> st = ser.getAllStates().Result;
             Assert.IsNotNull(st);
@@ -44,7 +45,7 @@ namespace ModelTesting
         [TestMethod]
         public void UsersTesting()
         {
-            ServiceInterface ser = ServiceFactory.CreateService(repo);
+            ServiceInterface ser = Service_maker.CreateService(repo);
             repo.gAllUsrs().Returns(new List<UserTesting>());
             IEnumerable<UserModelInterface> usr = ser.getAllUsers().Result;
             Assert.IsNotNull(usr);
@@ -57,7 +58,7 @@ namespace ModelTesting
         [TestMethod]
         public void EventsTesting()
         {
-            ServiceInterface ser = ServiceFactory.CreateService(repo);
+            ServiceInterface ser = Service_maker.CreateService(repo);
             repo.gAllEV().Returns(new List<EventTesting>());
             IEnumerable<EventModelInterface> ev = ser.getAllEvents().Result;
             Assert.IsNotNull(ev);

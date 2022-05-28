@@ -1,4 +1,4 @@
-using DataLayer.API;
+using Data.API;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace ModelTesting
@@ -9,7 +9,7 @@ namespace ModelTesting
         [TestMethod]
         public void ConnectionWithDatabaseTest()
         {
-            RepoInterface repo = DataRepoFactory.CreateRepo();
+            RepoInterface repo = REPO_maker.CreateRepo();
             Thread.Sleep(1000);
             Assert.IsTrue(repo.gAllBooks().Result.Count() > 0);
         }

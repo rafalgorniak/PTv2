@@ -1,4 +1,5 @@
-﻿using DataLayer.API;
+﻿using Data.API;
+using Service.API;
 using ServiceLayer.API;
 using System;
 using System.Collections.Generic;
@@ -16,12 +17,9 @@ namespace ServiceLayer
             REPO = repo;
         }
 
-
-
-
         public async Task<IEnumerable<EventModelInterface>> getAllEvents()
         {
-            return Mapper.MapEvents(await Task.Run(() => REPO.gAllEV()));
+            return Set_to_Map.MapEvents(await Task.Run(() => REPO.gAllEV()));
         }
         public async Task adEvent(int id, int state_id, int user_id, string type)
         {
@@ -65,7 +63,7 @@ namespace ServiceLayer
         }
         public async Task<IEnumerable<BookModelInterface>> getAllBooks()
         {
-            return Mapper.BooksMapping(await Task.Run(() => REPO.gAllBooks()));
+            return Set_to_Map.BooksMapping(await Task.Run(() => REPO.gAllBooks()));
         }
 
 
@@ -106,7 +104,7 @@ namespace ServiceLayer
 
         public async Task<IEnumerable<UserModelInterface>> getAllUsers()
         {
-            return Mapper.USersMapping(await Task.Run(() => REPO.gAllUsrs()));
+            return Set_to_Map.USersMapping(await Task.Run(() => REPO.gAllUsrs()));
         }
         public async Task adUser(int id, string name, string surname)
         {
@@ -142,7 +140,7 @@ namespace ServiceLayer
 
         public async Task<IEnumerable<StateModelInterface>> getAllStates()
         {
-            return Mapper.StatesMapping(await Task.Run(() => REPO.gAllStates()));
+            return Set_to_Map.StatesMapping(await Task.Run(() => REPO.gAllStates()));
         }
         public async Task adState(int id, int book_id, string available)
         {

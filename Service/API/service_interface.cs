@@ -1,46 +1,18 @@
-﻿using DataLayer.API;
+﻿using Data.API;
+using Service.API;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace ServiceLayer.API
 {
-   
-    public interface BookModelInterface
-    {
-        int id { get; set; }
-        string title { get; set; }
-        string author { get; set; }
-    }
-    public interface StateModelInterface
-    {
-        int id { get; set; }
-        int book_id { get; set; }
-        string available { get; set; }
-    }
 
-    public interface UserModelInterface
-    {
-        int id { get; set; }
-        string name { get; set; }
-        string surname { get; set; }
-    }
-
-    public interface EventModelInterface
-    {
-        int id { get; set; }
-        int state_id { get; set; }
-        int user_id { get; set; }
-        string type { get; set; }
-    }
-
-    public abstract class ServiceFactory
+    public abstract class Service_maker
     {
         public static ServiceInterface CreateService(RepoInterface repository = default)
         {
-            return new Service(repository ?? DataRepoFactory.CreateRepo());
+            return new Service(repository ?? REPO_maker.CreateRepo());
         }
     }
-    
     
     public interface ServiceInterface
     {

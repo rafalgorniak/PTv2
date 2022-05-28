@@ -16,3 +16,21 @@ C:\Users\rafal\uczelnia\4semestr\Programming Technologies\repo-do_oddania\PTv2\D
 C:\Users\rafal\uczelnia\4semestr\Programming Technologies\repo-do_oddania\PTv2\Data\obj\Debug\net4.8\Data.csproj.CoreCompileInputs.cache
 C:\Users\rafal\uczelnia\4semestr\Programming Technologies\repo-do_oddania\PTv2\Data\obj\Debug\net4.8\Data.dll
 C:\Users\rafal\uczelnia\4semestr\Programming Technologies\repo-do_oddania\PTv2\Data\obj\Debug\net4.8\Data.pdb
+C:\Users\rafal\uczelnia\4semestr\Programming Technologies\FINAL -1.0\Data\bin\Debug\net4.8\Data.dll
+C:\Users\rafal\uczelnia\4semestr\Programming Technologies\FINAL -1.0\Data\bin\Debug\net4.8\Data.pdb
+C:\Users\rafal\uczelnia\4semestr\Programming Technologies\FINAL -1.0\Data\obj\Debug\net4.8\Data.csproj.AssemblyReference.cache
+C:\Users\rafal\uczelnia\4semestr\Programming Technologies\FINAL -1.0\Data\obj\Debug\net4.8\Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rafal\uczelnia\4semestr\Programming Technologies\FINAL -1.0\Data\obj\Debug\net4.8\Data.AssemblyInfoInputs.cache
+C:\Users\rafal\uczelnia\4semestr\Programming Technologies\FINAL -1.0\Data\obj\Debug\net4.8\Data.AssemblyInfo.cs
+C:\Users\rafal\uczelnia\4semestr\Programming Technologies\FINAL -1.0\Data\obj\Debug\net4.8\Data.csproj.CoreCompileInputs.cache
+C:\Users\rafal\uczelnia\4semestr\Programming Technologies\FINAL -1.0\Data\obj\Debug\net4.8\Data.dll
+C:\Users\rafal\uczelnia\4semestr\Programming Technologies\FINAL -1.0\Data\obj\Debug\net4.8\Data.pdb
+C:\Users\rafal\uczelnia\4semestr\Programming Technologies\FINAL-2.0\PTv2\Data\bin\Debug\net4.8\Data.dll
+C:\Users\rafal\uczelnia\4semestr\Programming Technologies\FINAL-2.0\PTv2\Data\bin\Debug\net4.8\Data.pdb
+C:\Users\rafal\uczelnia\4semestr\Programming Technologies\FINAL-2.0\PTv2\Data\obj\Debug\net4.8\Data.csproj.AssemblyReference.cache
+C:\Users\rafal\uczelnia\4semestr\Programming Technologies\FINAL-2.0\PTv2\Data\obj\Debug\net4.8\Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rafal\uczelnia\4semestr\Programming Technologies\FINAL-2.0\PTv2\Data\obj\Debug\net4.8\Data.AssemblyInfoInputs.cache
+C:\Users\rafal\uczelnia\4semestr\Programming Technologies\FINAL-2.0\PTv2\Data\obj\Debug\net4.8\Data.AssemblyInfo.cs
+C:\Users\rafal\uczelnia\4semestr\Programming Technologies\FINAL-2.0\PTv2\Data\obj\Debug\net4.8\Data.csproj.CoreCompileInputs.cache
+C:\Users\rafal\uczelnia\4semestr\Programming Technologies\FINAL-2.0\PTv2\Data\obj\Debug\net4.8\Data.dll
+C:\Users\rafal\uczelnia\4semestr\Programming Technologies\FINAL-2.0\PTv2\Data\obj\Debug\net4.8\Data.pdb
