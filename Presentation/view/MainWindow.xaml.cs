@@ -7,7 +7,7 @@ namespace PresentationLayer
 {
     public partial class MainWindow : Window
     {
-        private ViewModel viewModel = new ViewModel(new PresenationModel());
+        private ViewModel viewModel = new ViewModel();
         public MainWindow()
         {
             InitializeComponent();

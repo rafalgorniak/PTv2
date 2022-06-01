@@ -43,3 +43,12 @@ C:\Users\rafal\uczelnia\4semestr\Programming Technologies\check2\PTv2\PTv2\Data\
 C:\Users\rafal\uczelnia\4semestr\Programming Technologies\check2\PTv2\PTv2\Data\obj\Debug\net4.8\Data.csproj.CoreCompileInputs.cache
 C:\Users\rafal\uczelnia\4semestr\Programming Technologies\check2\PTv2\PTv2\Data\obj\Debug\net4.8\Data.dll
 C:\Users\rafal\uczelnia\4semestr\Programming Technologies\check2\PTv2\PTv2\Data\obj\Debug\net4.8\Data.pdb
+C:\Users\rafal\uczelnia\4semestr\Programming Technologies\check4\PTv2\Data\bin\Debug\net4.8\Data.dll
+C:\Users\rafal\uczelnia\4semestr\Programming Technologies\check4\PTv2\Data\bin\Debug\net4.8\Data.pdb
+C:\Users\rafal\uczelnia\4semestr\Programming Technologies\check4\PTv2\Data\obj\Debug\net4.8\Data.csproj.AssemblyReference.cache
+C:\Users\rafal\uczelnia\4semestr\Programming Technologies\check4\PTv2\Data\obj\Debug\net4.8\Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rafal\uczelnia\4semestr\Programming Technologies\check4\PTv2\Data\obj\Debug\net4.8\Data.AssemblyInfoInputs.cache
+C:\Users\rafal\uczelnia\4semestr\Programming Technologies\check4\PTv2\Data\obj\Debug\net4.8\Data.AssemblyInfo.cs
+C:\Users\rafal\uczelnia\4semestr\Programming Technologies\check4\PTv2\Data\obj\Debug\net4.8\Data.csproj.CoreCompileInputs.cache
+C:\Users\rafal\uczelnia\4semestr\Programming Technologies\check4\PTv2\Data\obj\Debug\net4.8\Data.dll
+C:\Users\rafal\uczelnia\4semestr\Programming Technologies\check4\PTv2\Data\obj\Debug\net4.8\Data.pdb
