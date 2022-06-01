@@ -1,5 +1,4 @@
-﻿using Data.API;
-using DataLayer.API;
+﻿using DataLayer.API;
 
 namespace ModelTesting
 {

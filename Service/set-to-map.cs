@@ -1,6 +1,4 @@
-﻿using Data.API;
-using DataLayer.API;
-using Service.API;
+﻿using DataLayer.API;
 using ServiceLayer.API;
 using System.Collections.Generic;
 

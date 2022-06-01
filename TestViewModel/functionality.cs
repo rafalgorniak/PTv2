@@ -1,5 +1,4 @@
 ﻿using PresentationLayer;
-using Service.API;
 using ServiceLayer.API;
 
 namespace V_M_Test
@@ -48,14 +47,7 @@ namespace V_M_Test
         }
 
         public Task adBook(int id, string title, string author)
-        {
-            var book = new BookTesting()
-            {
-                id = id,
-                title = title,
-                author = author
-            };
-            booksfortest.Add(book);
+        {        
             return Task.CompletedTask;
         }
 

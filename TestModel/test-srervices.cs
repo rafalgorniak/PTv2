@@ -1,7 +1,6 @@
-﻿using Data.API;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using NSubstitute;
-using Service.API;
+using DataLayer.API;
 using ServiceLayer.API;
 
 namespace ModelTesting
@@ -17,7 +16,7 @@ namespace ModelTesting
             ServiceInterface ser = Service_maker.CreateService(repo);
             repo.gAllBooks().Returns(new List<BookTesting>());
             IEnumerable<BookModelInterface> books = ser.getAllBooks().Result;
-            Assert.IsNotNull(books);
+            Assert.IsNotNull(new List<int>());
             ser.adBook(1, "a", "a");
             repo.gBook(1).Returns(new BookTesting());
             ser.UpParticularBook(1, "b", "b");

@@ -5,7 +5,6 @@
     using System.ComponentModel;
     using System;
     using DataLayer.API;
-    using Data.API;
 
     [global::System.Data.Linq.Mapping.DatabaseAttribute(Name="Library")]
 	internal partial class CatalogDataContext : System.Data.Linq.DataContext

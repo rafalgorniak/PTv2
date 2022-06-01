@@ -1,5 +1,4 @@
-﻿using Service.API;
-using ServiceLayer.API;
+﻿using ServiceLayer.API;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -14,10 +13,6 @@ namespace PresentationLayer
     public class ViewModel : INotifyPropertyChanged
     {
         private ModelInterface model;
-
-        
-
-        
         private IEnumerable<BookModelInterface> modelBooks;
         public IEnumerable<BookModelInterface> ModelBooks
         {
