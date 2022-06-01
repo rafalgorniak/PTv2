@@ -1,6 +1,6 @@
 ﻿using ServiceLayer.API;
 
-namespace PresentationLayer
+namespace PresentationLayer.model
 {
     public interface ModelInterface
     {

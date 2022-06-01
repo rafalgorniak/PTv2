@@ -1,4 +1,6 @@
 ﻿using System;
+using PresentationLayer.viewmodel;
+using PresentationLayer.model;
 using System.Windows;
 
 namespace PresentationLayer

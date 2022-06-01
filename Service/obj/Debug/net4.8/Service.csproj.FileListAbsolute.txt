@@ -70,3 +70,15 @@ C:\Users\rafal\uczelnia\4semestr\Programming Technologies\check2\PTv2\PTv2\Servi
 C:\Users\rafal\uczelnia\4semestr\Programming Technologies\check2\PTv2\PTv2\Service\obj\Debug\net4.8\Service.csproj.CopyComplete
 C:\Users\rafal\uczelnia\4semestr\Programming Technologies\check2\PTv2\PTv2\Service\obj\Debug\net4.8\Service.dll
 C:\Users\rafal\uczelnia\4semestr\Programming Technologies\check2\PTv2\PTv2\Service\obj\Debug\net4.8\Service.pdb
+C:\Users\rafal\uczelnia\4semestr\Programming Technologies\check3\PTv2\Service\bin\Debug\net4.8\Service.dll
+C:\Users\rafal\uczelnia\4semestr\Programming Technologies\check3\PTv2\Service\bin\Debug\net4.8\Service.pdb
+C:\Users\rafal\uczelnia\4semestr\Programming Technologies\check3\PTv2\Service\bin\Debug\net4.8\Data.dll
+C:\Users\rafal\uczelnia\4semestr\Programming Technologies\check3\PTv2\Service\bin\Debug\net4.8\Data.pdb
+C:\Users\rafal\uczelnia\4semestr\Programming Technologies\check3\PTv2\Service\obj\Debug\net4.8\Service.csproj.AssemblyReference.cache
+C:\Users\rafal\uczelnia\4semestr\Programming Technologies\check3\PTv2\Service\obj\Debug\net4.8\Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rafal\uczelnia\4semestr\Programming Technologies\check3\PTv2\Service\obj\Debug\net4.8\Service.AssemblyInfoInputs.cache
+C:\Users\rafal\uczelnia\4semestr\Programming Technologies\check3\PTv2\Service\obj\Debug\net4.8\Service.AssemblyInfo.cs
+C:\Users\rafal\uczelnia\4semestr\Programming Technologies\check3\PTv2\Service\obj\Debug\net4.8\Service.csproj.CoreCompileInputs.cache
+C:\Users\rafal\uczelnia\4semestr\Programming Technologies\check3\PTv2\Service\obj\Debug\net4.8\Service.csproj.CopyComplete
+C:\Users\rafal\uczelnia\4semestr\Programming Technologies\check3\PTv2\Service\obj\Debug\net4.8\Service.dll
+C:\Users\rafal\uczelnia\4semestr\Programming Technologies\check3\PTv2\Service\obj\Debug\net4.8\Service.pdb

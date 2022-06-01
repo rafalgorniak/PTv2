@@ -1,4 +1,5 @@
 ﻿using ServiceLayer.API;
+using PresentationLayer.model;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -8,7 +9,7 @@ using System.Windows;
 using System.Windows.Input;
 
 
-namespace PresentationLayer
+namespace PresentationLayer.viewmodel
 {
     public class ViewModel : INotifyPropertyChanged
     {

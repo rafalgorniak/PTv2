@@ -1,5 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using PresentationLayer;
+using PresentationLayer.viewmodel;
+using PresentationLayer.model;
 
 namespace V_M_Test
 {
