@@ -25,8 +25,9 @@ namespace DataLayer
         }
 
         public async Task<StateInteface> gStt(int id)
-        {
-            return await Task.Run<StateInteface>(() => linqtosql.states.Where(s => s.id == id).FirstOrDefault());
+        {   
+            var state = from status in linqtosql.states where status.id == id select status;
+            return (StateInteface)state;
         }
         public async Task<IEnumerable<StateInteface>> gBookStt(int id)
         {
