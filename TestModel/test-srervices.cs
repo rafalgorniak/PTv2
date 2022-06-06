@@ -16,7 +16,7 @@ namespace ModelTesting
             ServiceInterface ser = Service_maker.CreateService(repo);
             repo.gAllBooks().Returns(new List<BookTesting>());
             IEnumerable<BookModelInterface> books = ser.getAllBooks().Result;
-            Assert.IsNotNull(new List<int>());
+            Assert.IsNotNull(repo.gAllBooks());
             ser.adBook(1, "a", "a");
             repo.gBook(1).Returns(new BookTesting());
             ser.UpParticularBook(1, "b", "b");
